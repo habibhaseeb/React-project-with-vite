@@ -1,7 +1,7 @@
 import React from 'react'
 import App from '../App'
 import { useNavigate } from 'react-router-dom'
-
+import logo from '../assets/images.png'
 
 
 function header() {
@@ -12,6 +12,7 @@ function header() {
     }
   return (
   <>
+    <div className='container'>
     <nav className='w-full flex bg-customColorofHeader' id='nav'>
         <ul className='flex m-3'>
             <li className='ml-3'>
@@ -22,6 +23,7 @@ function header() {
             <li className='ml-3'><button>Services</button></li>
         </ul>
     </nav>
+  </div>
 </>
   )
 }
