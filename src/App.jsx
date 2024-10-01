@@ -6,13 +6,16 @@ import './App.css'
 import Header from './Components/header'
 import { Navigate, useNavigate } from 'react-router-dom'
 import Section from './Components/section'
+import Div from './Components/div'
 
 function App() {
   return (
     <>
       <Header/>
-      <Section/>
+       <Section/>
+       <Div/>
     </>
+    
   )
 }
 
