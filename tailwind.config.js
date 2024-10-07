@@ -9,9 +9,14 @@ export default {
       },
       width:{
         width: '539px',
+        contentWidth: '962px',
+        mywidth: '100vw'
       },
       height:{
         height: '450px'
+      },
+      margin:{
+        mymargin: '0 calc(-50vw +)'
       }
     },
   },
